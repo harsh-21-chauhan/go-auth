@@ -11,23 +11,6 @@ A backend authentication service built with Go, featuring JWT-based authenticati
 - **golang-jwt/jwt** — JWT token generation and validation
 - **bcrypt** — password hashing
 
-## Project Structure
-
-```
-go-auth/
-├── main.go              # Entry point, route registration
-├── config/
-│   └── database.go      # DB connection and auto migration
-├── models/
-│   └── user.go          # User struct and DB schema
-├── controllers/
-│   ├── auth.go          # Signup and Login handlers
-│   └── user.go          # Profile and Users list handlers
-├── middleware/
-│   └── auth.go          # JWT validation middleware
-└── utils/
-    └── jwt.go           # Token generation and validation helpers
-```
 
 ## Setup & Run
 
